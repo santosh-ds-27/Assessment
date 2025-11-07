@@ -1,0 +1,43 @@
+@media(max-width: 900px) {
+  .navbar ul {
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    flex-direction: column;
+    background: #111;
+    width: 200px;
+    display: none;
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+  #menu-toggle:checked + .menu-icon + ul {
+    display: flex;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+  .apply_now {
+    grid-template-columns: 1fr;
+  }
+  .facts {
+    grid-template-columns: 1fr;
+  }
+  .contact-section {
+    grid-template-columns: 1fr;
+  }
+}
+@media(max-width: 600px) {
+  .hero {
+    padding: 120px 20px;
+    text-align: center;
+    align-items: center;
+  }
+  .features {
+    margin-top: 20px;
+  }
+  .meetings-container {
+    grid-template-columns: 1fr;
+  }
+}
